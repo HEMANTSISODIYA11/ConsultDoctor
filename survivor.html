@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Docovid-19</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/vendorcss/css/first.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Docovid-19</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Check Symptoms!?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="survivor.html">Quarntine!?</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/quarantine.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h1>Docovid-19</h1>
+                        <span class="subheading">Here To Rescue You!!</span>
+                    </div>
+                </div>
+            </div>
+            <!-- </div><img src="file:/C:\Users\pc\Downloads\Compressed\corona\img\logo.jpg" a alt="Smiley face" width="300" height="150" style="border:2px solid rgba(226, 69, 69, 0.685)"> -->
+
+
+    </header>
+
+
+    <!-- Main Content -->
+    <P><b><i><pre>                                   Fill Your Log Sheet here . While you are in Quarantine and send it to your Doctor Directly</pre></i></b></P>
+    <h1><pre>                                       ToDay</pre></h1>
+    <form action="/log" method="POST">
+        <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Email Address" id="email" name="email" required data-validation-required-message="Please enter your email address.">
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+
+        <label>Temperature(morning)</label>
+        <input type="text" class="form-control" placeholder="TemperatureM" id="TemperatureM" required data-validation-required-message="Please enter your Temperature.">
+        <p class="help-block text-danger"></p>
+        <label>Temperature(evening)</label>
+        <input type="text" class="form-control" placeholder="TemperatureE" id="TemperatureE" required data-validation-required-message="Please enter your Temperature.">
+        <p class="help-block text-danger"></p>
+        <label>Felt Feverish?</label>
+        <br>
+        <input type="radio" id="YFever" name="FeltFeverish" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="NFever" name="FeltFeverish" value="No">
+        <label for="no">No</label><br><br>
+        <label>Chills?</label>
+        <br>
+        <input type="radio" id="Ychill" name="Chills" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nchill" name="Chills" value="No">
+        <label for="no">No</label><br><br>
+        <label>Shivering?</label>
+        <br>
+        <input type="radio" id="Yshiver" name="Shivering" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nshiver" name="Shivering" value="No">
+        <label for="no">No</label><br><br>
+        <label>Muscle Ache?</label>
+        <br>
+        <input type="radio" id="Ymache" name="MuscleAche" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nmache" name="MuscleAche" value="No">
+        <label for="no">No</label><br><br>
+        <label>Fatigue?</label>
+        <br>
+        <input type="radio" id="Yfat" name="Fatigue" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nfat" name="Fatigue" value="No">
+        <label for="no">No</label><br><br>
+        <label>Runny Nose?</label>
+        <br>
+        <input type="radio" id="Ynose" name="RunnyNose" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nnose" name="RunnyNose" value="No">
+        <label for="no">No</label><br><br>
+        <label>Stuffy Nose?</label>
+        <br>
+        <input type="radio" id="Ysnose" name="StuffyNose" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nsnose" name="StuffyNose" value="No">
+        <label for="no">No</label><br><br>
+        <label>Sore Throat?</label>
+        <br>
+        <input type="radio" id="Ysore" name="SoreThroat" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nsore" name="SoreThroat" value="No">
+        <label for="no">No</label><br><br>
+        <label>Cough?</label>
+        <br>
+        <input type="radio" id="Ycough" name="Cough" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Ncough" name="Cough" value="No">
+        <label for="no">No</label><br><br>
+        <label>Wheezing?</label>
+        <br>
+        <input type="radio" id="Ywh" name="Wheezing" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nwh" name="Wheezing" value="No">
+        <label for="no">No</label><br><br>
+        <label>Shortness of Breath?</label>
+        <br>
+        <input type="radio" id="Ybreath" name="ShortnessofBreath" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nbreath" name="ShortnessofBreath" value="No">
+        <label for="no">No</label><br><br>
+        <label>Difficulty In Breathing?</label>
+        <br>
+        <input type="radio" id="YDbreath" name="DifficultyinBreathing" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="NDbreath" name="DifficultyinBreathing" value="No">
+        <label for="no">No</label><br><br>
+        <label>Vomiting?</label>
+        <br>
+        <input type="radio" id="Yvomit" name="Vomiting" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nvomit" name="Vomiting" value="No">
+        <label for="no">No</label><br><br>
+        <label>Headache?</label>
+        <br>
+        <input type="radio" id="Yhead" name="Headache" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nhead" name="Headache" value="No">
+        <label for="no">No</label><br><br>
+        <label>Abdominal Pain?</label>
+        <br>
+        <input type="radio" id="Yab" name="AbdominalPain" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nab" name="AbdominalPain" value="No">
+        <label for="no">No</label><br><br>
+        <label>Chest Pain?</label>
+        <br>
+        <input type="radio" id="Ych" name="ChestPain" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nch" name="ChestPain" value="No">
+        <label for="no">No</label><br><br>
+        <label>Diarrhea?</label>
+        <br>
+        <input type="radio" id="YDbreath" name="Diarrhea" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="NDbreath" name="Diarrhea" value="No">
+        <label for="no">No</label><br><br>
+        <label>Loss of Appetite?</label>
+        <br>
+        <input type="radio" id="Yap" name="LossofAppetite" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nap" name="LossofAppetite" value="No">
+        <label for="no">No</label><br><br>
+        <label>New Smell Disorder?</label>
+        <br>
+        <input type="radio" id="Ysmell" name="NewSmellDisorder" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Nsmell" name="NewSmellDisorder" value="No">
+        <label for="no">No</label><br><br>
+        <label>New Taste Disorder?</label>
+        <br>
+        <input type="radio" id="Ytaste" name="NewTasteDisorder" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="Ntaste" name="NewTasteDisorder" value="No">
+        <label for="no">No</label><br><br>
+
+        <br>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-primary float-center" id="sendMessageButton">Send To Hospital</button>
+    </form>
+    </div>
+    </div>
+    </div>
+
+    <hr>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+
+        </a>
+        </li>
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Docovid-19 2020</p>
+        </div>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/vendorcss/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
